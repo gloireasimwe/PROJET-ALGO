@@ -8,11 +8,12 @@ import math
 
 
 """ les graphiques"""
-# F(t) = 20cos(5t)
+# F0 = 100 et w = 10 rad/s
+# F(t) = 100cos(10t)
 
 
 def f(u,x):
-    return (u[1],-2*u[1]-400*u[0]+20*np.cos(5*x))
+    return (u[1],-2*u[1]-400*u[0]+100*np.cos(10*x))
 
 x0 = [0.01,0]
 
